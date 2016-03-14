@@ -53,7 +53,7 @@
 				34D1CD521C96370F00043025 /* libGLEW.1.13.0.dylib */,
 				342C7C5E1C961FFC0093CBBC /* libglfw.3.1.dylib */,
 				342C7C5C1C961BC70093CBBC /* OpenGL.framework */,
-				342C7C541C961B680093CBBC /* OpenGLStarter */,
+				342C7C541C961B680093CBBC /* Sources */,
 				342C7C531C961B680093CBBC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,12 +66,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		342C7C541C961B680093CBBC /* OpenGLStarter */ = {
+		342C7C541C961B680093CBBC /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				342C7C551C961B680093CBBC /* main.cpp */,
 			);
-			path = OpenGLStarter;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
