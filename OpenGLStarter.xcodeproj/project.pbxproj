@@ -27,7 +27,7 @@
 
 /* Begin PBXFileReference section */
 		342C7C521C961B680093CBBC /* OpenGLStarter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGLStarter; sourceTree = BUILT_PRODUCTS_DIR; };
-		342C7C551C961B680093CBBC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = /Users/annygakhokidze/projects/OpenGLStarter/OpenGLStarter/main.cpp; sourceTree = "<absolute>"; };
+		342C7C551C961B680093CBBC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		342C7C5C1C961BC70093CBBC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		342C7C5E1C961FFC0093CBBC /* libglfw.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.1.dylib; path = ../../../../usr/local/lib/libglfw.3.1.dylib; sourceTree = "<group>"; };
 		34D1CD521C96370F00043025 /* libGLEW.1.13.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.1.13.0.dylib; path = ../../../../usr/local/lib/libGLEW.1.13.0.dylib; sourceTree = "<group>"; };
@@ -71,8 +71,7 @@
 			children = (
 				342C7C551C961B680093CBBC /* main.cpp */,
 			);
-			name = OpenGLStarter;
-			path = Opengl2;
+			path = OpenGLStarter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
