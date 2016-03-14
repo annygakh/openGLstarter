@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		342C7C561C961B680093CBBC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 342C7C551C961B680093CBBC /* main.cpp */; };
+		342C7C5D1C961BC70093CBBC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342C7C5C1C961BC70093CBBC /* OpenGL.framework */; };
+		342C7C5F1C961FFC0093CBBC /* libglfw.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 342C7C5E1C961FFC0093CBBC /* libglfw.3.1.dylib */; };
+		34D1CD531C96370F00043025 /* libGLEW.1.13.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D1CD521C96370F00043025 /* libGLEW.1.13.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		342C7C521C961B680093CBBC /* Opengl2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Opengl2; sourceTree = BUILT_PRODUCTS_DIR; };
-		342C7C551C961B680093CBBC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		342C7C521C961B680093CBBC /* OpenGLStarter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGLStarter; sourceTree = BUILT_PRODUCTS_DIR; };
+		342C7C551C961B680093CBBC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = /Users/annygakhokidze/projects/OpenGLStarter/OpenGLStarter/main.cpp; sourceTree = "<absolute>"; };
+		342C7C5C1C961BC70093CBBC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		342C7C5E1C961FFC0093CBBC /* libglfw.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.1.dylib; path = ../../../../usr/local/lib/libglfw.3.1.dylib; sourceTree = "<group>"; };
+		34D1CD521C96370F00043025 /* libGLEW.1.13.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.1.13.0.dylib; path = ../../../../usr/local/lib/libGLEW.1.13.0.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +38,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34D1CD531C96370F00043025 /* libGLEW.1.13.0.dylib in Frameworks */,
+				342C7C5F1C961FFC0093CBBC /* libglfw.3.1.dylib in Frameworks */,
+				342C7C5D1C961BC70093CBBC /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +50,10 @@
 		342C7C491C961B680093CBBC = {
 			isa = PBXGroup;
 			children = (
-				342C7C541C961B680093CBBC /* Opengl2 */,
+				34D1CD521C96370F00043025 /* libGLEW.1.13.0.dylib */,
+				342C7C5E1C961FFC0093CBBC /* libglfw.3.1.dylib */,
+				342C7C5C1C961BC70093CBBC /* OpenGL.framework */,
+				342C7C541C961B680093CBBC /* OpenGLStarter */,
 				342C7C531C961B680093CBBC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +61,26 @@
 		342C7C531C961B680093CBBC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				342C7C521C961B680093CBBC /* Opengl2 */,
+				342C7C521C961B680093CBBC /* OpenGLStarter */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		342C7C541C961B680093CBBC /* Opengl2 */ = {
+		342C7C541C961B680093CBBC /* OpenGLStarter */ = {
 			isa = PBXGroup;
 			children = (
 				342C7C551C961B680093CBBC /* main.cpp */,
 			);
+			name = OpenGLStarter;
 			path = Opengl2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		342C7C511C961B680093CBBC /* Opengl2 */ = {
+		342C7C511C961B680093CBBC /* OpenGLStarter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 342C7C591C961B680093CBBC /* Build configuration list for PBXNativeTarget "Opengl2" */;
+			buildConfigurationList = 342C7C591C961B680093CBBC /* Build configuration list for PBXNativeTarget "OpenGLStarter" */;
 			buildPhases = (
 				342C7C4E1C961B680093CBBC /* Sources */,
 				342C7C4F1C961B680093CBBC /* Frameworks */,
@@ -77,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = Opengl2;
+			name = OpenGLStarter;
 			productName = Opengl2;
-			productReference = 342C7C521C961B680093CBBC /* Opengl2 */;
+			productReference = 342C7C521C961B680093CBBC /* OpenGLStarter */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 342C7C4D1C961B680093CBBC /* Build configuration list for PBXProject "Opengl2" */;
+			buildConfigurationList = 342C7C4D1C961B680093CBBC /* Build configuration list for PBXProject "OpenGLStarter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				342C7C511C961B680093CBBC /* Opengl2 */,
+				342C7C511C961B680093CBBC /* OpenGLStarter */,
 			);
 		};
 /* End PBXProject section */
@@ -165,6 +178,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lGLEW";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -202,6 +216,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-lGLEW";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -209,21 +224,31 @@
 		342C7C5A1C961B680093CBBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = OpenGLStarter;
 			};
 			name = Debug;
 		};
 		342C7C5B1C961B680093CBBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = OpenGLStarter;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		342C7C4D1C961B680093CBBC /* Build configuration list for PBXProject "Opengl2" */ = {
+		342C7C4D1C961B680093CBBC /* Build configuration list for PBXProject "OpenGLStarter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				342C7C571C961B680093CBBC /* Debug */,
@@ -232,13 +257,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		342C7C591C961B680093CBBC /* Build configuration list for PBXNativeTarget "Opengl2" */ = {
+		342C7C591C961B680093CBBC /* Build configuration list for PBXNativeTarget "OpenGLStarter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				342C7C5A1C961B680093CBBC /* Debug */,
 				342C7C5B1C961B680093CBBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
